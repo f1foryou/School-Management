@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Teacher</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="assets/plugins/datatables/dataTables.bootstrap4.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom" id="siteloader">
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" id="sidebar_container">
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Teacher</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Teacher Profile</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+
+
+
+          <div class="col-md-3">
+
+            <!-- Profile Image -->
+            <div class="card card-primary card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                       src="assets/dist/img/user4-128x128.jpg"
+                       alt="User profile picture">
+                </div>
+
+                <h3 class="profile-username text-center">Staff Name</h3>
+
+                <p class="text-muted text-center">Staff Designation</p>
+
+                <ul class="list-group list-group-unbordered mb-3">
+                  <li class="list-group-item">
+                    <b>Gender</b> <a class="float-right">Male/Female</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Date Of Birth</b> <a class="float-right">DD/MM/YYYY</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Phonenumber</b> <a class="float-right">9876543210</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            <!-- About Me Box -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">About</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <strong><i class="fa fa-book mr-1"></i> Education</strong>
+
+                <p class="text-muted">
+                  Educations Details with College
+                </p>
+
+                <hr>
+
+                <strong><i class="fa fa-map-marker mr-1"></i> Location</strong>
+
+                <p class="text-muted">Current Location</p>
+
+                <hr>
+
+                <strong><i class="fa fa-pencil mr-1"></i> Skills</strong>
+
+                <p class="text-muted">
+                  <span class="tag tag-danger">UI Design</span>
+                  <span class="tag tag-success">Coding</span>
+                  <span class="tag tag-info">Javascript</span>
+                  <span class="tag tag-warning">PHP</span>
+                  <span class="tag tag-primary">Node.js</span>
+                </p>
+
+                <hr>
+
+                <strong><i class="fa fa-file-text-o mr-1"></i> Notes</strong>
+
+                <p class="text-muted">Extra Notes if any.</p>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+
+          <div class="col-md-9">
+            <div class="card">
+              <div class="card-header p-2">
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link active" href="#profile" data-toggle="tab">Profile</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#other" data-toggle="tab">Other Details</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#salary" data-toggle="tab">Salary</a></li>
+                </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="active tab-pane" id="profile">
+
+                    <div class="col-6">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <tr>
+                            <th style="width:50%">Joining Date:</th>
+                            <td>DD/MM/YYYY</td>
+                          </tr>
+                          <tr>
+                            <th>Email :</th>
+                            <td>Staff Email ID</td>
+                          </tr>
+                          <tr>
+                            <th>Religion :</th>
+                            <td>Not Disclosed/ Hindu/ Muslim/ Christian</td>
+                          </tr>
+                          <tr>
+                            <th>Address :</th>
+                            <td>Staff Address</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- /.col -->
+                  </div>
+                  <!-- /.tab-pane -->
+
+
+                  <div class="tab-pane" id="other">
+                    <div class="col-6">
+                      <div class="table-responsive">
+                        <table class="table">
+                          <tr>
+                            <th>Total Leave :</th>
+                            <td>Count</td>
+                          </tr>
+                          <tr>
+                            <th style="width:50%">Leave Taken:</th>
+                            <td>Count</td>
+                          </tr>
+                          <tr>
+                            <th>Leave Remaining : </th>
+                            <td>Count</td>
+                          </tr>
+                          <tr>
+                            <th>Username :</th>
+                            <td>Login Username</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- /.col -->
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="salary">
+                    
+
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <div class="info-box bg-info">
+                          <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
+
+                          <div class="info-box-content">
+                            <span class="info-box-text">Basic Salary</span>
+                            <span class="info-box-number">Rs. 41,410</span>
+                          </div>
+                          <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                      </div>
+                      <!-- /.col -->
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <div class="info-box bg-warning">
+                          <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+
+                          <div class="info-box-content">
+                            <span class="info-box-text">Allowances</span>
+                            <span class="info-box-number">House Rent : Rs. 1000</span>
+                          </div>
+                          <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                      </div>
+                      <!-- /.col -->
+
+
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <div class="info-box bg-success">
+                          <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+
+                          <div class="info-box-content">
+                            <span class="info-box-text">Funds</span>
+                            <span class="info-box-number">Provident Fund : Rs. 1,410</span>
+                          </div>
+                          <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                      </div>
+                      <!-- /.col -->
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6 col-12 pull-right">
+                      <div class="info-box bg-danger">
+                        <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
+
+                        <div class="info-box-content">
+                          <span class="info-box-text">Total Salary Details</span>
+                          <span class="info-box-number">Gross Salary : Rs. 50,000</span>
+                          <span class="info-box-number">Total Deduction : Rs. 1,000</span>
+                          <span class="info-box-number">Net Salary : Rs. 50,000</span>
+                        </div>
+                        <!-- /.info-box-content -->
+                      </div>
+                      <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+
+
+
+
+                    <!-- /.col -->
+                  </div>
+                  <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.nav-tabs-custom -->
+          </div>
+          <!-- /.col -->
+
+
+
+
+
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-alpha
+    </div>
+    <strong>Copyright &copy; 2014-2018 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+  <!-- jQuery UI 1.11.4 -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+  <script>
+    //Ajax call to get Sidenav bar
+    $.ajax({
+      url: "includes/sidebar.html",
+    }).done(function(response) {
+      $("#sidebar_container").html(response);
+    });
+  </script>
+
+  <script type="text/javascript">
+      $("#siteloader").load('includes/navbar.html');
+  </script>
+
+<!-- Bootstrap 4 -->
+<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables -->
+<script src="assets/plugins/datatables/jquery.dataTables.js"></script>
+<script src="assets/plugins/datatables/dataTables.bootstrap4.js"></script>
+<!-- SlimScroll -->
+<script src="assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="assets/plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="assets/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="assets/dist/js/demo.js"></script>
+<!-- page script -->
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+</script>
+</body>
+</html>

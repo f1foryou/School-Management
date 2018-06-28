@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Leave Status</title>
+  <title>Teacher</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,6 +21,7 @@
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
+
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom" id="siteloader">
 
@@ -39,12 +40,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Leave Status</h1>
+            <h1>Teacher</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Leave Status</li>
+              <li class="breadcrumb-item active">Teacher</li>
             </ol>
           </div>
         </div>
@@ -65,10 +66,8 @@
                   <th>Name</th>
                   <th>Contact</th>
                   <th>Register ID</th>
-                  <th>Category</th>
-                  <th>Date</th>
-                  <th>Days</th>
-                  <th>Status</th>
+                  <th>Email ID</th>
+                  <th>Options</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -76,56 +75,52 @@
                   <td>Deepan</td>
                   <td>9843562666</td>
                   <td>14MX10</td>
-                  <td>Student</td>
-                  <td>24/11/2018 - 28-11-2018</td>
-                  <td>4days</td>
+                  <td>deepan.xe@gmail.com</td>
                   <td>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-info">Accept</button>
-                      <button type="button" class="btn btn-danger">Reject</button>  
-                    </div>
+                    <a href="staff_view.html"><i class="far fa-eye"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-edit"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-trash-alt"></i></a>
                   </td>
                 </tr>
                 <tr>
                   <td>Aravind</td>
                   <td>8056805622</td>
                   <td>14MX04</td>
-                  <td>Driver</td>
-                  <td>04/08/2018</td>
-                  <td>1day</td>
+                  <td>aravindnarayanan@gmail.com</td>
                   <td>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-info">Accept</button>
-                      <button type="button" class="btn btn-danger">Reject</button>
-                    </div>
+                    <a href="staff_view.html"><i class="far fa-eye"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-edit"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-trash-alt"></i></a>
                   </td>
                 </tr>
                 <tr>
                   <td>Raj</td>
                   <td>9843668666</td>
                   <td>09XA10</td>
-                  <td>Staff</td>
-                  <td>12/10/2018 - 18-10-2018</td>
-                  <td>6days</td>
+                  <td>raj@gmail.com</td>
                   <td>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-info">Accept</button>
-                      <button type="button" class="btn btn-danger">Reject</button>
-                    </div>
+                    <a href="staff_view.html"><i class="far fa-eye"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-edit"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-trash-alt"></i></a>
                   </td>
                 </tr>
                 <tr>
                   <td>Narayanan</td>
                   <td>8054509722</td>
                   <td>10AC02</td>
-                  <td>Accountant</td>
-                  <td>12/12/2018 - 04-01-2018</td>
-                  <td>23days</td>
+                  <td>naray@gmail.com</td>
                   <td>
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-info">Accept</button>
-                      <button type="button" class="btn btn-danger">Reject</button>
-                    </div>
+                    <a href="staff_view.html"><i class="far fa-eye"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-edit"></i></a>
+                    <span style="margin: 0 25px 0 0;"></span>
+                    <a href="#"><i class="far fa-trash-alt"></i></a>
                   </td>
                 </tr>
                 </tfoot>
@@ -166,7 +161,6 @@
 
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
   <script>
-    $.widget.bridge('uibutton', $.ui.button);
     //Ajax call to get Sidenav bar
     $.ajax({
       url: "includes/sidebar.html",
